@@ -163,9 +163,10 @@ int main()
         printf("  " AMARELO "[2]" RESET " Consultar funcionario\n");
         printf("  " AMARELO "[3]" RESET " Deletar funcionario\n");
         printf("  " VERMELHO "[0]" RESET " Sair\n");
-
+		
+		
         printf("\n" CINZA "  Opcao: " RESET);
-        printf("\n\n\n" CINZA"  Projeto de Patrick H Kamimura ");
+        printf("\n\n\n" CINZA"  Projeto de P. Hiroyuki K. ");
         scanf("%d", &opcao);
         LIMPAR_BUFFER();
 
